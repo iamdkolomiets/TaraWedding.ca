@@ -1,0 +1,126 @@
+@media only screen and (max-width: 750px) {
+    html,
+    body {
+        display: block;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 90%;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio__title {
+        padding-top: 25px;
+    }
+    .portfolio__subtitle {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .contact-block__instagram,
+    .contact-block__mail,
+    .contact-block__cell {
+        margin: auto;
+        margin-top: 14px;
+    }
+
+    .contact-block2__text {
+        margin: auto;
+    }
+
+    .contact-block3__text {
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .contact-block2__button {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .portfolio__title {
+        padding-top: 35px;
+    }
+
+    body {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 70%;
+    }
+    .contact-block2__text {
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .portfolio__title {
+        padding-top: 75px;
+    }
+
+    .contact-block3__text {
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .portfolio__subtitle {
+        padding-bottom: 20px;
+    }
+
+    .portfolio__button {
+        line-height: 45px;
+    }
+
+    .testimonials__button {
+        line-height: 45px;
+    }
+
+    .something-for-everyone-first-block__button,
+    .something-for-everyone-second-block__button {
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 50%;
+    }
+
+    .portfolio__title {
+        padding-top: 90px;
+    }
+
+    .faq__title {
+        position: absolute; 
+        top: 0px;
+    }
+}
